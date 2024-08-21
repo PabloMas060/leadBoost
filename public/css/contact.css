@@ -1,0 +1,28 @@
+.contact h3 {
+    text-transform: uppercase;
+}
+.contact h4 {
+    color: var(--colorVerde);
+    font-weight: 400;
+}
+.contact__main__section-2 {
+    margin-top: 70px;
+}
+.contact__main__section h3 {
+    margin-bottom: 0px;
+}
+.contact__main__section__article {
+    margin-top: 60px;
+}
+.contact__main__section__article p {
+margin: 1px 0px;
+}
+.contact__main__section__article__first p{
+    margin: 1px 0px;
+}
+.contact__header__nav {
+    padding-top: 25px;
+}
+.contact iframe {
+    width: 100%
+}

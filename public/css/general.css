@@ -1,0 +1,37 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif; 
+*/
+
+:root {
+    --tipografiaTitulos: 'Raleway', sans-serif;
+    --tipografiaEmilia: 'Work Sans', sans-serif; 
+    --tipografiaGeneral: 'Open Sans', sans-serif;
+    --colorVerde: #44a391;
+}
+
+body {
+    font-family: var(--tipografiaGeneral);
+    font-weight: 300;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 13%, rgba(9,9,121,1) 37%, rgba(0,212,255,1) 100%); */
+    background-image: url('/img/bg-1.webp');
+    background-repeat: no-repeat;}
+
+h1 {
+    font-family: var(--tipografiaTitulos);
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+ul li {
+    list-style: none;
+}
+ul {
+    padding-left: 0px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}

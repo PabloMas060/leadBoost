@@ -1,0 +1,68 @@
+body.music header {
+   /*  background-image: url('/img/3.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 13%, rgba(9,9,121,1) 37%, rgba(0,212,255,1) 100%); */
+}
+.music__header__nav__ul {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0px 10px 0px;
+}
+.music__main a {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.music h4 {
+    color: var(--colorVerde);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+.music h1 {
+    color: #fff;
+    padding-left: 10px;
+    /* text-align: start; */
+    align-self: flex-start;
+}
+
+.music__main__nav__ul {
+    padding-left: 25px;
+}
+.music__main_section p {
+    font-weight: 400;
+}
+.music__main_section{
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 3px white;
+    width: 50%;
+}
+.music__main__section__article__ol {
+    font-weight: bold;
+    
+
+}
+.music__main__section__article__ol li {
+    margin: 15px 0px;
+    list-style-type: decimal-leading-zero;
+}
+.music main p {
+    line-height: 10px;
+    font-size: 15px;
+}
+.img-hover {
+    box-shadow: 1px 1px 5px 4px rgba(41, 170, 190, 0.4); /* Sombra inicial */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+  }
+  
+  .img-hover:hover {
+    box-shadow: 3px 3px 10px 8px rgb(41, 170, 190);; /* Sombra más pronunciada al hacer hover */
+    transform: scale(1.05); /* Pequeño efecto de zoom al hacer hover */
+  }
+  .music__main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }

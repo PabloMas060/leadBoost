@@ -1,0 +1,24 @@
+header nav ul li{
+    line-height: 30px;
+}
+.header__vertical {
+    padding: 30px;
+    width: 61%;
+    text-align: center;
+    font-size: larger;
+}
+
+.header__horizontal {
+    text-align: right;
+    padding: 20px 5px;
+}
+.header__horizontal nav.manu {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.header__horizontal nav ul li{
+    display: inline;
+}
